@@ -255,8 +255,9 @@ if (!hasSameVal(3)) ar.push(3);
 接下来来看一下 *Set* 常见的应用场景：
 
 ```js
+
 //数组去重
-...new Set([1,1,2,2,3])
+const a = [...new Set([1,1,2,2,3])]
 
 //并集
 var arr1 = [1, 2, 3]
