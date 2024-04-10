@@ -1,7 +1,6 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import navbar from "./navbar";
-import sidebar from "./sidebar";
-import { MR_HOPE_AVATAR } from "./logo";
+import navbar from "./navbar.js";
+import sidebar from "./sidebar.js";
 
 export default hopeTheme({
   hostname: "https://mister-hope.github.io",
@@ -33,6 +32,33 @@ export default hopeTheme({
   blog: {
     description: "一个前端开发者",
     intro: "/intro.html",
+    medias:{
+      Github:"https://github.com/destiny516",
+"稀土掘金":[
+  // 链接
+  "https://juejin.cn/user/374265276799661",
+  // 图标 SVG 字符串
+  "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" width=\"26px\" height=\"26px\" viewBox=\"0 0 26 26\" enable-background=\"new 0 0 26 26\" xml:space=\"preserve\">  <image id=\"image0\" width=\"26\" height=\"26\" x=\"0\" y=\"0\"\n" +
+  "    href=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAMAAACelLz8AAAABGdBTUEAALGPC/xhBQAAACBjSFJN\n" +
+  "AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABCFBMVEX////H2PJVl/QlfPUe\n" +
+  "d/UfePX///s2gvAAWv8AZv8Aaf8Aav81g/AAYv8AbP8Aa/8le/UAYP8ed/QAX/+81f++1v8fePQA\n" +
+  "ZP+Cs/+Ftf8AZf8AXf9lo/9npP8AXP8AY/90q/8Rc/8Sc/91q/8Hbv86if88iv8Gbv8AaP8AYf/O\n" +
+  "4P+Htv8AVv+Jt//N3/84if8AWf8AV/+Bs//A2P/B2f9/sf85iv/5+/80hv8zhf8Baf/6+/9kov8S\n" +
+  "cv83h/8Udf8Tdf84iP8Rcv8AZ//R4v+Bsv+Ds//Q4v+Ht//L3//N4P+Gtf8AWP8+i/8Hbf8Ibf8G\n" +
+  "bP/8/f/7/P8Fa//K3v/I3f/H2PMmfPVHT+hTAAAAAWJLR0QAiAUdSAAAAAlwSFlzAAAOxAAADsQB\n" +
+  "lSsOGwAAAAd0SU1FB+gECgkiLDZFZKcAAAEnSURBVCjPfZJ5U8IwEMUfLUKb0IS72mDqiUGrUu8b\n" +
+  "td73Cd//m1hnpKEM9v2V7G9mZ/ftA4CcYeanRpQ3jRx+VShaNqEpEdsqFmJUctgEOaW4m8UmysrB\n" +
+  "sPWXc/22DZSJJpWKZsRElSakVm/UEkaraCbInQZm3AQ1h4h7hInWrGTE42nE/bl5n3ke8xcWfZ5C\n" +
+  "dAlYlpzLNrBCR5DqcCJXsRYE69iQhHfUEKnNelfRcAvbO9gNqOo29tQf8lrYVy4TB8ChYO7RMU68\n" +
+  "YUPnFDgT3O2du1xcAJeOHiMSV7gOKSE0vMGtiFIThne4F1EkHvD4RMdWls/AyyvQlmMrx/Lf3oGP\n" +
+  "T18bpe1V1te3pUbsNf87SjnrlBkByIhNVtiAvjFIR3Rg9OPyD63TLur+FglvAAAAJXRFWHRkYXRl\n" +
+  "OmNyZWF0ZQAyMDI0LTA0LTEwVDA5OjM0OjQ0KzAwOjAwWWrVKQAAACV0RVh0ZGF0ZTptb2RpZnkA\n" +
+  "MjAyNC0wNC0xMFQwOTozNDo0NCswMDowMCg3bZUAAAAodEVYdGRhdGU6dGltZXN0YW1wADIwMjQt\n" +
+  "MDQtMTBUMDk6MzQ6NDQrMDA6MDB/IkxKAAAAAElFTkSuQmCC\" />\n" +
+  "</svg>",
+],
+      Gitee:"https://gitee.com/destiny12327"
+    }
 /*
     medias: {
       Baidu: "https://example.com",
