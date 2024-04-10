@@ -15,7 +15,7 @@ export default hopeTheme({
 
   logo: "./logo.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "destiny516/destiny.github.io",
 
   docsDir: "src",
 
