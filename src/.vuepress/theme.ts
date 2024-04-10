@@ -15,7 +15,7 @@ export default hopeTheme({
 
   logo: "./logo.svg",
 
-  repo: "destiny516/destiny.github.io",
+  repo: "destiny516/destiny516.github.io",
 
   docsDir: "src",
 
